@@ -41,11 +41,10 @@ If you find this repo helpful, please cite our paper.
 We appreciate the following GitHub repos a lot for their valuable code and efforts.
 - Reformer (https://github.com/lucidrains/reformer-pytorch)
 - Informer (https://github.com/zhouhaoyi/Informer2020)
-- FlashAttention (https://github.com/shreyansh26/FlashAttention-PyTorch)
 - Autoformer (https://github.com/thuml/Autoformer)
 - Stationary (https://github.com/thuml/Nonstationary_Transformers)
 - Time-Series-Library (https://github.com/thuml/Time-Series-Library)
-- lucidrains (https://github.com/lucidrains/iTransformer)
+- PatchTST (https://github.com/yuqinie98/PatchTST)
 
 This work was supported by Ant Group through the CCF-Ant Research Fund, and awarded as [Outstanding Projects of CCF Fund](https://mp.weixin.qq.com/s/PDLNbibZD3kqhcUoNejLfA).
 
