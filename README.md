@@ -5,7 +5,7 @@ Paper:[MCformer: Multivariate Time Series Forecasting With Mixed-Channels Transf
 
 
 ## Overall Architecture
-
+<img width="841" alt="MCFormer_Arch" src="https://github.com/user-attachments/assets/830cebf5-b36f-469d-ba35-149fb21f1027" />
 
 ## Usage 
 
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 ## Main Result of Multivariate Forecasting
 
-
+![图片](https://github.com/user-attachments/assets/22c66962-aa3e-43f8-9c6c-0fa43872a0e0)
 
 ## Citation
 
