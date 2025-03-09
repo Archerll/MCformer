@@ -69,7 +69,7 @@ class Exp_Main(Exp_Basic):
                 # encoder - decoder
                 if self.args.use_amp:
                     with torch.cuda.amp.autocast():
-                        if 'Linear' in self.args.model or 'TST' in self.args.model:
+                        if 'Linear' in self.args.model or 'TST' in self.args.model or 'MCformer' in self.args.model:
                             outputs = self.model(batch_x)
                         else:
                             if self.args.output_attention:
@@ -77,7 +77,7 @@ class Exp_Main(Exp_Basic):
                             else:
                                 outputs = self.model(batch_x, batch_x_mark, dec_inp, batch_y_mark)
                 else:
-                    if 'Linear' in self.args.model or 'TST' in self.args.model:
+                    if 'Linear' in self.args.model or 'TST' in self.args.model or 'MCformer' in self.args.model:
                         outputs = self.model(batch_x)
                     else:
                         if self.args.output_attention:
@@ -248,7 +248,7 @@ class Exp_Main(Exp_Basic):
                 # encoder - decoder
                 if self.args.use_amp:
                     with torch.cuda.amp.autocast():
-                        if 'Linear' in self.args.model or 'TST' in self.args.model:
+                        if 'Linear' in self.args.model or 'TST' in self.args.model or 'MCformer' in self.args.model:
                             outputs = self.model(batch_x)
                         else:
                             if self.args.output_attention:
@@ -256,7 +256,7 @@ class Exp_Main(Exp_Basic):
                             else:
                                 outputs = self.model(batch_x, batch_x_mark, dec_inp, batch_y_mark)
                 else:
-                    if 'Linear' in self.args.model or 'TST' in self.args.model:
+                    if 'Linear' in self.args.model or 'TST' in self.args.model or 'MCformer' in self.args.model:
                             outputs = self.model(batch_x)
                     else:
                         if self.args.output_attention:
