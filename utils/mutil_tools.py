@@ -2,7 +2,7 @@
 @Time：2023/9/19
 @Auth：Archer
 @Email：hanwenyongava@163.com
-@Project：PatchTST_supervised
+@Project：MCformer
 @Content：mutil_tools
 @Function：
 """
